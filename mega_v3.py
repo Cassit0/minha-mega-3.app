@@ -30,6 +30,7 @@ st.markdown("""
         border-radius: 12px;
         margin-bottom: 15px;
         border-left: 6px solid #d4a017;
+        color: #128F55 ;
     }
     .status-excelente { color: #d4a017; font-weight: bold; }
     .status-bom { color: #209869; font-weight: bold; }
