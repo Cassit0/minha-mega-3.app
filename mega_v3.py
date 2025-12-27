@@ -39,8 +39,11 @@ st.markdown("""
 
 # --- 2. HISTÓRICO RECENTE ---
 historico_sorteios = [
-    {"concurso": 2807, "data": "13/12/2025", "dezenas": [5, 18, 27, 40, 48, 59]},
-    {"concurso": 2806, "data": "11/12/2025", "dezenas": [2, 11, 28, 37, 43, 55]}
+    {"concurso": 2954 , "data": "20/12/2025", "dezenas": [1, 9, 37, 39, 42, 44]},
+    {"concurso": 2953 , "data": "18/12/2025", "dezenas": [5, 10, 24, 25, 47, 54]},
+    {"concurso": 2952 , "data": "16/12/2025", "dezenas": [1, 20, 45, 48, 51, 58]},
+    {"concurso": 2951 , "data": "13/12/2025", "dezenas": [5, 8, 30, 31, 37, 45]},
+    {"concurso": 2950 , "data": "11/12/2025", "dezenas": [21, 23, 42, 49, 50, 60]}
 ]
 ultimos_5_sorteios = [s["dezenas"] for s in historico_sorteios]
 
